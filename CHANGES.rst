@@ -1,3 +1,7 @@
+0.2.2 (2022-07-20)
+------------------
+Fix exception while parsing timestamp -> add new timestamp format support
+
 0.2.1 (2019-08-27)
 ------------------
 
