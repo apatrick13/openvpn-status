@@ -13,6 +13,9 @@ from openvpn_status.utils import (
 
 
 @mark.parametrize('text,time', [
+    (u'2015-06-18 04:23:03', datetime(2015, 6, 18, 4, 23, 3)),
+    (u'2015-01-01 01:23:45', datetime(2015, 1, 1, 1, 23, 45)),
+    (u'2015-12-31 23:59:59', datetime(2015,12,31,23, 59, 59)),
     (u'Thu Jun 18 04:23:03 2015', datetime(2015, 6, 18, 4, 23, 3)),
     (u'Thu Jun 18 04:08:39 2015', datetime(2015, 6, 18, 4, 8, 39)),
     (u'Thu Jun 18 07:57:25 2015', datetime(2015, 6, 18, 7, 57, 25)),
